@@ -1,0 +1,67 @@
+body{
+    margin: 0px;
+    background: linear-gradient(to right, rgb(86, 85, 85),rgb(45, 45, 45));
+}
+
+.menu{
+    display: grid;
+    color: wheat;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+
+}
+
+.nav{
+    display: flex;
+    margin: 1em;
+    color: aliceblue;
+}
+
+header{
+    flex: 3;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    flex: 2;
+    display: flex;
+    font-size: 1em;
+}
+
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+    flex: 1;
+}
+
+nav a:hover{
+    color: gray;
+}
+
+.menu th{
+    font-size: 1.5em;
+    color: rgb(171, 149, 118);
+    padding: 1em;
+}
+
+table{
+    width: 100%;
+    padding: 1em;
+}
+
+.menu tr{
+    display: flex;
+    justify-content: center;
+    margin: .5em;
+}
+.menu td:nth-child(1){
+    justify-self: left;
+    flex: 1;
+}
+.menu td:nth-child(2){
+    justify-self: right;
+}
+i{
+    margin: .5em;
+}
